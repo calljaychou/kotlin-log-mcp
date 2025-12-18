@@ -1,0 +1,8 @@
+2024-05-20 00:00:01 INFO Starting application
+2024-05-20 00:00:10 WARN Config key missing: cache.size
+2024-05-20 00:05:12 ERROR Database connection timeout
+2024-05-20 01:15:33 INFO User login: alice
+2024-05-20 12:00:00 ERROR Database deadlock detected in transaction T123
+2024-05-20 18:45:00 WARN Low disk space on /var
+2024-05-20 22:10:55 INFO Shutdown initiated
+

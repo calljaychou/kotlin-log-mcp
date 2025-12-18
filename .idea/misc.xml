@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Code Coverage</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GradleMigrationKotlin</id>
+          </State>
+          <State>
+            <id>JUnit</id>
+          </State>
+          <State>
+            <id>JVM languages</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java interop issuesKotlin</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LoggingJVM languages</id>
+          </State>
+          <State>
+            <id>LoggingKotlin</id>
+          </State>
+          <State>
+            <id>MavenMigrationKotlin</id>
+          </State>
+          <State>
+            <id>MigrationKotlin</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Other problemsKotlin</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Probable bugsReactKotlin</id>
+          </State>
+          <State>
+            <id>ReactKotlin</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>User defined</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+</project>
