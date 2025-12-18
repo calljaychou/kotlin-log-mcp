@@ -15,23 +15,12 @@ import kotlinx.io.buffered
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
 
-private const val childJar = "kotlin-mcp-server/build/libs/kotlin-mcp-server-all.jar"
-private const val logPath = "sample_logs/app.log"
-
-fun main() = runBlocking {
-    val projectRoot = File(System.getProperty("user.dir"))
-    // Ensure we are at the root or find the jar relative to current dir
-    val serverJarPath = if (projectRoot.name == "kotlin-mcp-client") {
-        File(projectRoot.parentFile, childJar)
-    } else {
-        File(projectRoot, childJar)
-    }.absolutePath
-
-    val logPath = if (projectRoot.name == "kotlin-mcp-client") {
-        File(projectRoot.parentFile, logPath)
-    } else {
-        File(projectRoot, logPath)
-    }.absolutePath
+fun main(args: Array<String>) = runBlocking {
+    require(args.isNotEmpty()) {
+        "Usage: java -jar <your_path>/build/libs/kotlin-mcp-client-0.1.0-all.jar <path_to_server_script>"
+    }
+    val serverJarPath = args[1]
+    val logPath = args[2]
 
     println("Starting MCP Client...")
     println("Server Jar: $serverJarPath")
